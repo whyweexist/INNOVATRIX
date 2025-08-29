@@ -21,28 +21,28 @@ st.set_page_config(
 
 # ------- Functions ------
 # Load datasets
-@st.cache
+@st.cache_data
 def load_ratings():
     return backend.load_ratings()
 
 
-@st.cache
+@st.cache_data
 def load_course_sims():
     return backend.load_course_sims()
 
-@st.cache
+@st.cache_data
 def load_profile():
     return backend.load_profile()
 
-@st.cache
+@st.cache_data
 def load_courses():
     return backend.load_courses()
 
-@st.cache
+@st.cache_data
 def load_courses_genre():
     return backend.load_courses_genre()
 
-@st.cache
+@st.cache_data
 def load_bow():
     return backend.load_bow()
 
