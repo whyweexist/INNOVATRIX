@@ -1,6 +1,5 @@
 numpy
 pandas
-sklearn
 scikit-learn
 streamlit
 streamlit-aggrid==0.2.2-2
